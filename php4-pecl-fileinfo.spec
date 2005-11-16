@@ -33,11 +33,11 @@ In PECL status of this extension is: %{_status}.
 
 %description -l pl
 To rozszerzenie pozwala na uzyskanie wielu informacji na temat plików.
-Informacje te uwzglêdniaj± miêdzy innymi rozmiar, jako¶æ, d³ugo¶æ,
+Informacje te uwzglêdniaj± miêdzy innymi rozmiar, jako¶æ, d³ugo¶æ
 itp.
 
 Dodatkowo mo¿e byæ u¿yte do uzyskania typu MIME danego pliku, a dla
-plików tekstowych u¿ytego kodowania.
+plików tekstowych - u¿ytego kodowania.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
