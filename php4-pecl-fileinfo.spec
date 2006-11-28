@@ -7,12 +7,12 @@
 Summary:	%{_modname} - libmagic bindings
 Summary(pl):	%{_modname} - dowi±zania biblioteki libmagic
 Name:		php4-pecl-%{_modname}
-Version:	1.0
+Version:	1.0.4
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_smodname}-%{version}.tgz
-# Source0-md5:	66503ab12c7d9cc1958b653845baa49c
+# Source0-md5:	2854e749db157365c769cb9496f5586f
 URL:		http://pecl.php.net/package/Fileinfo/
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.322
