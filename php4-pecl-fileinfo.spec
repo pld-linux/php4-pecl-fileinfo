@@ -3,16 +3,16 @@
 %define		_status		beta
 %define		_sysconfdir	/etc/php4
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
-
 Summary:	%{_modname} - libmagic bindings
 Summary(pl):	%{_modname} - dowi±zania biblioteki libmagic
 Name:		php4-pecl-%{_modname}
 Version:	1.0.4
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_smodname}-%{version}.tgz
 # Source0-md5:	2854e749db157365c769cb9496f5586f
+Patch0:		pecl-fileinfo-defaultdb.patch
 URL:		http://pecl.php.net/package/Fileinfo/
 BuildRequires:	php4-devel >= 3:4.3.0
 BuildRequires:	rpmbuild(macros) >= 1.322
@@ -33,8 +33,7 @@ In PECL status of this extension is: %{_status}.
 
 %description -l pl
 To rozszerzenie pozwala na uzyskanie wielu informacji na temat plików.
-Informacje te uwzglêdniaj± miêdzy innymi rozmiar, jako¶æ, d³ugo¶æ
-itp.
+Informacje te uwzglêdniaj± miêdzy innymi rozmiar, jako¶æ, d³ugo¶æ itp.
 
 Dodatkowo mo¿e byæ u¿yte do uzyskania typu MIME danego pliku, a dla
 plików tekstowych - u¿ytego kodowania.
@@ -42,7 +41,8 @@ plików tekstowych - u¿ytego kodowania.
 To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
-%setup -q -c 
+%setup -q -c
+%patch0 -p1
 
 %build
 cd %{_smodname}-%{version}
