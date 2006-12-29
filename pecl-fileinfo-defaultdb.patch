@@ -1,0 +1,11 @@
+--- php4-pecl-fileinfo-1.0.4/Fileinfo-1.0.4/config.m4~	2006-11-07 23:31:19.000000000 +0200
++++ php4-pecl-fileinfo-1.0.4/Fileinfo-1.0.4/config.m4	2006-12-29 17:46:52.510986989 +0200
+@@ -59,8 +59,6 @@
+     done
+   done
+   
+-  AC_DEFINE_UNQUOTED(PHP_DEFAULT_MAGIC_FILE,"$PHP_DEFAULT_MAGIC_FILE",[magic file path])
+-
+   PHP_SUBST(FILEINFO_SHARED_LIBADD)
+ 
+   PHP_NEW_EXTENSION(fileinfo, fileinfo.c, $ext_shared)
