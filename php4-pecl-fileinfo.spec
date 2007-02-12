@@ -2,7 +2,7 @@
 %define		_smodname	Fileinfo
 %define		_status		beta
 Summary:	%{_modname} - libmagic bindings
-Summary(pl):	%{_modname} - dowi±zania biblioteki libmagic
+Summary(pl.UTF-8):   %{_modname} - dowiÄ…zania biblioteki libmagic
 Name:		php4-pecl-%{_modname}
 Version:	1.0.4
 Release:	2
@@ -29,12 +29,12 @@ particular file and for text files proper language encoding.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-To rozszerzenie pozwala na uzyskanie wielu informacji na temat plików.
-Informacje te uwzglêdniaj± miêdzy innymi rozmiar, jako¶æ, d³ugo¶æ itp.
+%description -l pl.UTF-8
+To rozszerzenie pozwala na uzyskanie wielu informacji na temat plikÃ³w.
+Informacje te uwzglÄ™dniajÄ… miÄ™dzy innymi rozmiar, jakoÅ›Ä‡, dÅ‚ugoÅ›Ä‡ itp.
 
-Dodatkowo mo¿e byæ u¿yte do uzyskania typu MIME danego pliku, a dla
-plików tekstowych - u¿ytego kodowania.
+Dodatkowo moÅ¼e byÄ‡ uÅ¼yte do uzyskania typu MIME danego pliku, a dla
+plikÃ³w tekstowych - uÅ¼ytego kodowania.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
