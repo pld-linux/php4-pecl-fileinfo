@@ -2,7 +2,7 @@
 %define		_smodname	Fileinfo
 %define		_status		beta
 Summary:	%{_modname} - libmagic bindings
-Summary(pl.UTF-8):   %{_modname} - dowiązania biblioteki libmagic
+Summary(pl.UTF-8):	%{_modname} - dowiązania biblioteki libmagic
 Name:		php4-pecl-%{_modname}
 Version:	1.0.4
 Release:	2
